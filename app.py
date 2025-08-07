@@ -13,7 +13,7 @@ class EmbeddingResponse(BaseModel):
     embeddings: List[List[float]]
 
 # --- Model Loading ---
-MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+MODEL_NAME = "BAAI/bge-small-en-v1.5"
 
 # REMOVED: No longer defining a CACHE_DIR because we don't have a persistent disk.
 # REMOVED: No longer calling os.makedirs.
